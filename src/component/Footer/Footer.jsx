@@ -64,7 +64,7 @@ Ranchi, Jharkhand, India</a></li>
     </div>
 	<div className="row">
 		<div className="col-md-12 copy">
-			<p className="text-center">&copy; Copyright 2023 - <span style={{color:"olive"}} >COMPUTER Ed.</span>   All rights reserved.</p>
+			<p className="text-center">&copy; Copyright 2023 - <span style={{color:"olive"}} >@Rehan</span>   All rights reserved.</p>
 		</div>
 	</div>
 
