@@ -1,0 +1,12 @@
+.accordion-button{
+    color:  rgb(0, 0, 0) !important;
+  }
+  .accordion-body{
+    color:black !important;
+  }
+  .accordion-btn-focus-box-shadow{
+    color:  aqua !important;
+  }
+  .last-info{
+    padding: 50px;
+  }

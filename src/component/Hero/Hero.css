@@ -1,0 +1,82 @@
+
+
+
+.gallery{
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  aspect-ratio: 16/9;
+  
+}
+.card:last-child{
+  animation: swap 8s linear infinite;
+}
+.card{
+  position: absolute;
+  inset: 0;
+  margin: 5px;
+  padding: 0 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  background: linear-gradient(180deg, rgba(4, 1, 9, 0.623) 100%, rgba(13, 2, 29, 0.684) 100%, rgba(231,231,231,0) 100%) , var(--bg);
+  background-size: cover;
+}
+
+.card_title{
+  color: #EF180E;
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.card_about{
+  max-width: 60%;
+
+  color: whitesmoke;
+  font-size: 1.7rem;
+  letter-spacing: .1rem;
+  line-height: 1.7;
+  font-weight: 700;
+}
+.card_about1{
+  max-width: 60%;
+
+  color: rgb(82, 255, 203);
+  font-size: 1rem;
+  letter-spacing: .1rem;
+  line-height: 1.7;
+  font-weight: 500;
+}
+.card_actions{
+  display: flex;
+  gap: 1rem;
+}
+.card_action{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .5rem;
+}
+
+@keyframes swap{
+  45%{
+    opacity: 1;
+  }
+  50%{
+    opacity: 0;
+  }
+  95%{
+    opacity: 0;
+    pointer-events: none;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+.form-control{
+  width: 35%;
+  height: 5%;
+  
+}
