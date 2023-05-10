@@ -17,7 +17,7 @@ function Header() {
 		<nav id="nav-bar">
 			<ul>
 				<li className="dropdown">
-          <a className="nav-link" href="#">About US &#9662;</a>
+          <a className="nav-link" href="#">About US</a>
           <ul className="dropdown-content">
             <li><a className="dropdown-a" href="#">Undergraduate</a></li>
             <li><a className="dropdown-a" href="#">Graduate</a></li>
@@ -26,7 +26,7 @@ function Header() {
         </li>
         
 				<li className="dropdown">
-          <a className="nav-link" href="#">Academics &#9662;</a>
+          <a className="nav-link" href="#">Academics</a>
           <ul className="dropdown-content">
             <li><a className="dropdown-a" href="#">Undergraduate</a></li>
             <li><a className="dropdown-a" href="#">Graduate</a></li>
@@ -34,7 +34,7 @@ function Header() {
           </ul>
         </li>
 				<li className="dropdown">
-          <a className="nav-link" href="#">Departments &#9662;</a>
+          <a className="nav-link" href="#">Departments</a>
           <ul className="dropdown-content">
             <li><a className="dropdown-a" href="#">Undergraduate</a></li>
             <li><a className="dropdown-a" href="#">Graduate</a></li>
@@ -42,7 +42,7 @@ function Header() {
           </ul>
         </li>
 				<li className="dropdown">
-          <a className="nav-link" href="#">Specialities &#9662;</a>
+          <a className="nav-link" href="#">Specialities</a>
           <ul className="dropdown-content">
             <li><a className="dropdown-a" href="#">Undergraduate</a></li>
             <li><a className="dropdown-a" href="#">Graduate</a></li>
@@ -50,7 +50,7 @@ function Header() {
           </ul>
         </li>
           <li className="dropdown">
-            <a className="nav-link" href="#">Patient &#9662;</a>
+            <a className="nav-link" href="#">Patient</a>
             <ul className="dropdown-content">
               <li><a className="dropdown-a" href="#">Undergraduate</a></li>
               <li><a className="dropdown-a" href="#">Graduate</a></li>
@@ -58,7 +58,7 @@ function Header() {
             </ul>
         </li>
         <li className="dropdown">
-          <a className="nav-link" href="#">Facilities & Services &#9662;</a>
+          <a className="nav-link" href="#">Facilitiesces</a>
           <ul className="dropdown-content">
             <li><a className="dropdown-a" href="#">Undergraduate</a></li>
             <li><a className="dropdown-a" href="#">Graduate</a></li>
@@ -66,7 +66,7 @@ function Header() {
           </ul>
       </li>
       <li className="dropdown">
-        <a className="nav-link" href="#">Info Desk &#9662;</a>
+        <a className="nav-link" href="#">Info Desk</a>
         <ul className="dropdown-content">
           <li><a className="dropdown-a" href="#">Undergraduate</a></li>
           <li><a className="dropdown-a" href="#">Graduate</a></li>
@@ -74,7 +74,7 @@ function Header() {
         </ul>
     </li>
     <li className="dropdown">
-      <a className="nav-link" href="#">Media &#9662;</a>
+      <a className="nav-link" href="#">Media</a>
       <ul className="dropdown-content">
         <li><a className="dropdown-a" href="#">Undergraduate</a></li>
         <li><a className="dropdown-a" href="#">Graduate</a></li>

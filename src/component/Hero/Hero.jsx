@@ -18,7 +18,7 @@ const Hero = () => {
     <p className="card_about1">
     An Autonomous Institute under the Govt. of Jharkhand
     </p>
-    <button type="button" className="btn btn-info btn-lg">Gallery</button>
+    <button type="button" className="btn btn-outline-info btn-lg">Gallery</button>
   </div>
 
 
@@ -30,7 +30,7 @@ const Hero = () => {
     <p className="card_about1">
     An Autonomous Institute under the Govt. of Jharkhand
     </p>
-    <button type="button" className="btn btn-info btn-lg">Gallery</button>
+    <button type="button" className="btn btn-outline-info btn-lg">Gallery</button>
   </div>
   
   <div className="card" style={{"--bg" : "url(../public/Images/sl24.jpg)"}}>
@@ -44,7 +44,7 @@ const Hero = () => {
     </p>
     
     
-    <button type="button" className="btn btn-info btn-lg">Gallery</button>
+    <button type="button" className="btn btn-outline-info btn-lg">Gallery</button>
     
   
     

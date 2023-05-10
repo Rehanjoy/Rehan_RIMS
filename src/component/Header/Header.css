@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Comfortaa|Open+Sans:300,400,600,700');
 
-/* * {
+* {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
 	font-family: 'Open Sans', sans-serif;
-} */
+}
 
 a {
 	text-decoration: none;
@@ -181,14 +181,27 @@ nav li a:hover {
   position: absolute;
   z-index: 1;
 }
+@media all and (max-width: 1552px) { 
+	.dropdown-content li{
+		font-size: 7px !important;
+	}
+}
+
 
 .dropdown-content li {
   display: block;
-  
+  text-align: center;
   margin: 5px;
   padding: 8px 12px;
   font-size: 14px;
   font-weight: normal;
+}
+@media all and (max-width: 1552px) { 
+	.dropdown-content li{
+		font-size: 7px !important;
+		margin: 2px;
+		padding: 4px 6px;
+	}
 }
 
 .dropdown-content li a {
@@ -198,9 +211,17 @@ nav li a:hover {
   text-decoration: none;
   color: #333;
 }
+@media all and (max-width: 1552px) { 
+	.dropdown-content li a{
+		font-size: 7px !important;
+		margin: 2px;
+		padding: 4px 6px;
+	}
+}
 
 .dropdown-content li a:hover {
   background-color: #f2f2f2;
+  
 }
 
 .dropdown-content {

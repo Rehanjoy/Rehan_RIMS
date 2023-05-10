@@ -1,5 +1,5 @@
  :root {
-  --rad: 0.7rem;
+  --rad: 0.2rem;
   --dur: 0.3s;
   --color-dark: #2f2f2f;
   --color-light: #fff;
@@ -10,9 +10,6 @@
   --bez: cubic-bezier(0, 0, 0.43, 1.49);
 } 
 
-
-
-
 *,
 *::before,
 *::after {
@@ -21,7 +18,7 @@
 
 form {
   position: relative;
-  background: black;
+  
   border-radius: var(--rad);
 }
 
@@ -54,7 +51,7 @@ input[type="search"] {
   right: 0;
   width: var(--btn-width);
   font-weight: bold;
-  background: black;
+  background: rgb(24, 174, 224);
   border-radius: 0 var(--rad) var(--rad) 0;
 }
 
@@ -76,26 +73,18 @@ label {
   width: 1px;
   overflow: hidden;
 }
-
+.cards{
+  display: flex;
+}
 
 .top-cardss{
-  margin: 0px;
-  height: 500px;
-  padding: 10px 20px;
+  padding: 20px;
+  border-radius: 25px;
   background-color: var(--color-brand);
 } 
 
-.col{
-  width: 40vw;
-  height: 55vh;
-}
-.card-text{
-  text-align: center;
-  padding: 80px;
-}
-.input-btn{
-  padding: 60px;
-}
+
+
 
 
 .aamish {

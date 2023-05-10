@@ -13,10 +13,10 @@ function App() {
     <>
       <Header />
       <Hero />
-      <Stats/>
       <Card/>
-      <Info/>
+      <Stats/>
       <Infor />
+      <Info/>
       <Footer />
     </>
   );
