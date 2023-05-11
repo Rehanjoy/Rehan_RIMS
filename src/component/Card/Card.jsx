@@ -1,4 +1,4 @@
-// eslint-disable-next-line no-unused-vars
+
 import React from "react";
 
 import "./Card.css";
@@ -38,8 +38,8 @@ function Card() {
             
               <img
                 className="aamish"
-                src="https://media.istockphoto.com/id/512278456/photo/group-of-doctors-at-the-hospital.jpg?s=170667a&w=0&k=20&c=XKMi1xsHzVJ8JJzQZfGYJooqBJitZT0MDs4W4usP4eg="
-                alt=""
+                src="../public/sl31.jpg"
+                alt="doc"
               />
           </div>
         </div>

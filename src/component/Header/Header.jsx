@@ -1,4 +1,4 @@
-// eslint-disable-next-line no-unused-vars
+
 import React from "react";
 import "./Header.css";
 
@@ -8,8 +8,8 @@ function Header() {
 
 
 <header id="header">
-		<img src="../public/Images/logoo.png" alt="logo" id="header-img" />
-		<h1>Rajendra Institute of Medical Sciences</h1>
+		<img src="../public/logoo.png" alt="logo" id="header-img" />
+		<h1 className="main-title">Rajendra Institute of Medical Sciences</h1>
     <div className="btns">
     <button className="nav-button mx-2"><span></span>Login</button>
     <button className="nav-button"><span></span>SignUp</button>

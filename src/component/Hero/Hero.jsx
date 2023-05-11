@@ -1,5 +1,4 @@
 
-// eslint-disable-next-line no-unused-vars
 import React from 'react'
 import "./Hero.css"
 
@@ -9,7 +8,7 @@ const Hero = () => {
       
      <div className="gallery">
   
-  <div className="card" style={{"--bg" : "url(../public/Images/sl22.jpg)"}}>
+  <div className="card" style={{"--bg" : "url(../public/sl22.jpg)"}}>
   
     <h1 className="card_title">राजेन्द्र आयुर्विज्ञान संस्थान, रांची </h1>
     <p className="card_about">
@@ -22,7 +21,7 @@ const Hero = () => {
   </div>
 
 
-  <div className="card" style={{"--bg" : "url(../public/Images/sl23.jpeg)"}}>
+  <div className="card" style={{"--bg" : "url(../public/sl23.jpeg)"}}>
     <h1 className="card_title">राजेन्द्र आयुर्विज्ञान संस्थान, रांची </h1>
     <p className="card_about">
     Rajendra Institute of Medical Sciences
@@ -33,7 +32,7 @@ const Hero = () => {
     <button type="button" className="btn btn-outline-info btn-lg">Gallery</button>
   </div>
   
-  <div className="card" style={{"--bg" : "url(../public/Images/sl24.jpg)"}}>
+  <div className="card" style={{"--bg" : "url(../public/sl24.jpg)"}}>
   
     <h1 className="card_title">राजेन्द्र आयुर्विज्ञान संस्थान, रांची </h1>
     <p className="card_about">

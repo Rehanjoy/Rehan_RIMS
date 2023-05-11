@@ -1,4 +1,4 @@
-// eslint-disable-next-line no-unused-vars
+
 import React from "react";
 import "./Info.css";
 
@@ -21,11 +21,11 @@ function Info() {
     </h2>
     <div id="panelsStayOpen-collapseOne" className="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne" style={{ boxShadow: '0 0 10px #30ccb7f1' }}>
       <div className="accordion-body">
-      <a  href="http://"><img src="../public/Images/GIF.gif" alt="gif" /> List of candidates passed in the Ph. D Entrance Test - 2022-23 Examination held in the month of Feb. 2023, RIMS, Ranchi </a><br/><br/>
-      <a  href="http://"><img src="../public/Images/GIF.gif" alt="gif" />Office Order - List of selected candidates and details for Short term fellowship program in Good Clinical Practice, RIMS Ranchi, Memo No. 1571A, Dtd: 10-04-23</a><br/><br/>
-      <a  href="http://"><img src="../public/Images/GIF.gif" alt="gif" />Circular - Training for Medical Record Technician (MRT) for the Session 1st July to 31st December 2023</a><br/><br/>
-      <a  href="http://"> <img src="../public/Images/GIF.gif" alt="gif" />Income Tax Schedule Format, Assessment Year : 2023-24, FY : 2022-23</a><br/><br/>
-      <a  href="http://"><img src="../public/Images/GIF.gif" alt="gif" />SOP for Institutional Ethics Committee, RIMS, Ranchi, Version 5.0, Dated-21-02-2022</a><br/><br/>
+      <a  href="http://"><img src="../public/GIF.gif" alt="gif" /> List of candidates passed in the Ph. D Entrance Test - 2022-23 Examination held in the month of Feb. 2023, RIMS, Ranchi </a><br/><br/>
+      <a  href="http://"><img src="../public/GIF.gif" alt="gif" />Office Order - List of selected candidates and details for Short term fellowship program in Good Clinical Practice, RIMS Ranchi, Memo No. 1571A, Dtd: 10-04-23</a><br/><br/>
+      <a  href="http://"><img src="../public/GIF.gif" alt="gif" />Circular - Training for Medical Record Technician (MRT) for the Session 1st July to 31st December 2023</a><br/><br/>
+      <a  href="http://"> <img src="../public/GIF.gif" alt="gif" />Income Tax Schedule Format, Assessment Year : 2023-24, FY : 2022-23</a><br/><br/>
+      <a  href="http://"><img src="../public/GIF.gif" alt="gif" />SOP for Institutional Ethics Committee, RIMS, Ranchi, Version 5.0, Dated-21-02-2022</a><br/><br/>
       </div>
     </div>
   </div>

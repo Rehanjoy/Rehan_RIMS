@@ -11,3 +11,35 @@ background-color: #fffffff1;
 	box-sizing: border-box;
 	font-family: 'Open Sans', sans-serif;
 }
+
+@media all and (max-width: 556px) { 
+	
+	/* your content here */
+	#root {
+		margin: 0;
+		background-color: #fffffff1;
+		
+			box-sizing: border-box;
+			font-family: 'Open Sans', sans-serif;
+		}
+		* {
+			padding: 0px;
+			margin: 0;
+			box-sizing: border-box;
+			font-family: 'Open Sans', sans-serif;
+		}
+
+		ul {
+			text-align: center;
+		}
+
+		@media all and (max-width: 557px) { 
+			
+			
+
+			
+			
+			/* your content here */ }
+
+
+}

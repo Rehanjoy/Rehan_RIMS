@@ -38,11 +38,11 @@ header img {
 	margin: 10px;
 }
 
-@media (max-width: 330px) {
+/* @media (max-width: 330px) {
 	header img {
 		display: none;
 	}
-}
+} */
 
 header h1 {
 	font-size: 2rem;
@@ -53,11 +53,11 @@ header h1 {
   display: flex;
 }
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
 	h1 {
 		display: none;
 	}
-}
+} */
 
 header .user-details span {
 	
@@ -87,14 +87,14 @@ nav ul {
 	margin: 0 auto;
 }
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
 	nav ul {
 		margin: unset;
 		display: unset;
 		position: relative;
 		right: 30px;
 	}
-}
+} */
 
 nav li {
 	list-style-type: none;
@@ -242,7 +242,27 @@ nav li a:hover {
 }
 
 
+@media all and (max-width: 603px) { 
+	/* your content here */
+	ul {
+		text-align: center;
+		font-size: 0.8rem;
+		justify-content: space-between;
+	}
+
+	.main-title {
+		width: 100%;
+		padding: 0px;
+	}
+
+	#header {
+		padding: 0px;
+	}
+
+	.btns {
+		margin: 0px;
+	}
 
 
-
+}
 
